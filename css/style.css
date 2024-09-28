@@ -1,0 +1,298 @@
+
+.alumni-sans{
+  font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+/*
+ * Header
+ */
+
+ header{
+  text-align: center
+
+ }
+ html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+ .masthead {
+  margin-bottom: 2rem;
+}
+
+  
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+ 
+}
+
+.nav-link:hover {
+  color: grey;
+  text-transform: uppercase ;
+  font-weight: bold;
+  transition: 0.2s all ease;
+ 
+}
+
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: center;
+  }
+  .nav-masthead {
+    float: center;
+  }
+}
+
+ 
+  
+  .site-menu[data-class="social"] a {
+    color: rgba(255, 255, 255, 0.5); }
+    .site-menu[data-class="social"] a:hover {
+      color: #fff; }
+  
+  
+  
+  body {
+    line-height: 1.7;
+    color: black ;
+    font-size: 1rem;
+    background: whitesmoke; 
+  }
+  
+
+  
+  #main{
+    text-align: center;
+     align-items: center;
+    align-content: center;
+  }
+  
+  #about{
+    text-align: justify;
+     align-items: center;
+    align-content: center;
+    margin: 150px
+  }
+
+img{ margin: 30px;}
+
+
+
+
+  .img-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+    
+  }
+  
+  .card-cover {
+    filter: grayscale(100%);
+    height: 400px
+    
+    }
+  
+  .card-cover:hover {
+    filter:grayscale(15%);
+    transition: 1.2s all ease;
+  }
+  
+  .btn-outline-white {
+    border-color: #fff;
+    color: #fff;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .1em; 
+  }
+  
+  .btn-outline-white:hover {
+    background: #fff;
+    color: #000; 
+  }
+  
+  svg{
+    margin: 20px;
+    fill: black
+  }
+
+
+  .insta:hover {
+    fill: #e20ae0;
+    width: 45px;
+     height: 45px;
+    transition: 0.8s all ease;
+
+  }
+  .linkedin:hover:hover {
+    fill: #0a66c2;
+    width: 45px;
+    height: 45px;
+    transition: 0.8s all ease;
+  }
+
+  .photos:hover {
+    fill: #535353;
+    width: 45px;
+     height: 45px;
+    transition: 0.8s all ease;
+
+  }
+
+
+  body {
+    background: linear-gradient(300deg, #c6c2c2, #ffffff, #bfbfbf);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .sg {
+    filter: grayscale(100%);
+    border-color: #fff;
+
+    box-shadow: 2px 5px 6px #ccc;
+
+    
+    }
+
+    .sg:hover {
+      filter:grayscale(15%);
+      transition: 0.5s all ease;
+    }
+
+
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width:80%;
+      max-height:900px;
+      height: auto;
+      width:auto;
+      border-color: #fff;
+      border-radius: 10px;
+      border-style: solid;
+      box-shadow: 3px 3px 1px #ccc;
+      filter: grayscale(100%);
+
+
+    }
+
+
+    
+    .center:hover {
+      filter:grayscale(0%);
+      transition: 0.3s all ease;
+    }
+
+
+
+
+
+
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 0.8em; line-height: 1.4; }
+
+
+
+
+
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+.resume {
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;	
+}
+
+table{
+	width: 100%;
+}
+
+thead{
+	font-weight: bold;
+}
+
+td{	
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+
+.project > .title {
+	margin-bottom: 0px;
+}
+
+.project > .meta {
+	font-size: 0.8em;
+}
+
+.project > .meta > .date {
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
